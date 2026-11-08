@@ -1,0 +1,25 @@
+# Ambiente virtual Python
+.venv/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+
+# Variáveis de ambiente e credenciais
+.env
+.env.*
+!.env.example
+
+# Cache de testes
+.pytest_cache/
+
+# Logs
+*.log
+
+# Metadados gerados na instalação de pacotes Python
+*.egg-info/
+*.egg
+
+# Artefatos de build
+build/
+dist/
